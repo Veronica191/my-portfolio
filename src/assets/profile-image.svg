@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-labelledby="title">
+  <title id="title">Profile Illustration</title>
+  <defs>
+    <linearGradient id="heroGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+  <rect width="520" height="520" rx="48" fill="#eef6ff" />
+  <circle cx="260" cy="180" r="100" fill="url(#heroGradient)" opacity="0.18" />
+  <path fill="#fff" d="M260 120a70 70 0 1 0 0 140 70 70 0 0 0 0-140Z" />
+  <path fill="#93c5fd" d="M200 286c0-40 36-72 80-72s80 32 80 72v96H200v-96Z" />
+  <path fill="#bfdbfe" d="M140 432c12-66 74-114 144-114s132 48 144 114H140Z" />
+  <circle cx="176" cy="204" r="14" fill="#0f172a" opacity="0.64" />
+  <circle cx="344" cy="204" r="14" fill="#0f172a" opacity="0.64" />
+  <path d="M192 248c0 20 24 38 40 38s40-18 40-38" fill="none" stroke="#0f172a" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" opacity="0.75" />
+</svg>
