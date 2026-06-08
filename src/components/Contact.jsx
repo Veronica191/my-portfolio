@@ -62,20 +62,20 @@ export default function Contact() {
             <div className="mt-8 space-y-4 text-sm text-slate-600">
               <div className="space-y-1 rounded-3xl bg-slate-50 p-4">
                 <p className="font-semibold text-slate-900">Email</p>
-                <a href="mailto:veronica.katugu@example.com" className="text-sky-600 hover:underline">
-                  veronica.katugu@example.com
+                <a href="mailto:veronijinga2003@gmail.com" className="text-sky-600 hover:underline">
+                  veronijinga2003@gmail.com
                 </a>
               </div>
               <div className="space-y-1 rounded-3xl bg-slate-50 p-4">
                 <p className="font-semibold text-slate-900">GitHub</p>
-                <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="text-sky-600 hover:underline">
-                  github.com/yourusername
+                <a href="https://github.com/Veronica191" target="_blank" rel="noreferrer" className="text-sky-600 hover:underline">
+                  github.com/Veronica191
                 </a>
               </div>
               <div className="space-y-1 rounded-3xl bg-slate-50 p-4">
                 <p className="font-semibold text-slate-900">LinkedIn</p>
-                <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noreferrer" className="text-sky-600 hover:underline">
-                  linkedin.com/in/yourusername
+                <a href="https://www.linkedin.com/in/veronica-akwojinga-031269287/" target="_blank" rel="noreferrer" className="text-sky-600 hover:underline">
+                  linkedin.com/in/veronica-akwojinga-031269287/
                 </a>
               </div>
             </div>
