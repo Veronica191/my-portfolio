@@ -11,18 +11,18 @@ export const projects = [
       'Personal portfolio website built with React, Tailwind CSS, and Framer Motion to showcase projects, skills, and contact details.',
     tech: ['React', 'Tailwind CSS', 'Framer Motion'],
     image: portfolioImg,
-    github: 'https://github.com/Veronica191/portfolio-website',
-    demo: 'https://Veronica191.vercel.app',
+    github: 'https://github.com/Veronica191/my-portfolio',
+    demo: 'https://my-portfolio-flax-pi-83.vercel.app/',
   },
   {
     id: 2,
     title: 'QuizWhiz app',
     description:
-      'Task management application with create, update, and delete functionality for efficient daily planning.',
+      'A quiz application that allows users to test their knowledge on various topics with multiple-choice questions and instant feedback.',
     tech: ['React', 'JavaScript'],
     image: todoImg,
     github: 'https://github.com/Veronica191/quizwhiz',
-    demo: 'https://quizwhiz.vercel.app',
+    demo: 'https://quizwhiz-teal.vercel.app/',
   },
   {
     id: 3,
