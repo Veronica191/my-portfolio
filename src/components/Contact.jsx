@@ -81,7 +81,7 @@ export default function Contact() {
             </div>
             <div className="mt-8 flex flex-wrap gap-4 text-slate-600">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Veronica191"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-medium transition hover:border-sky-200 hover:text-sky-700"
@@ -89,7 +89,7 @@ export default function Contact() {
                 <FaGithub className="h-4 w-4" /> GitHub
               </a>
               <a
-                href="https://www.linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/veronica-akwojinga-031269287/"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-medium transition hover:border-sky-200 hover:text-sky-700"
@@ -97,7 +97,7 @@ export default function Contact() {
                 <FaLinkedin className="h-4 w-4" /> LinkedIn
               </a>
               <a
-                href="mailto:veronica.katugu@example.com"
+                href="mailto:veronijinga2003@gmail.com"
                 className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-medium transition hover:border-sky-200 hover:text-sky-700"
               >
                 <FaEnvelope className="h-4 w-4" /> Email
