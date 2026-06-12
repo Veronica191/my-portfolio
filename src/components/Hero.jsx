@@ -85,7 +85,7 @@ export default function Hero() {
             <div className="absolute -left-12 top-10 h-24 w-24 rounded-full bg-sky-200 blur-2xl" />
             <img
               src={profileImage}
-              alt="Veronica Katugu profile"
+              alt="Veronica Akwojinga profile"
               className="relative z-10 mx-auto h-full w-full rounded-[1.5rem] object-cover"
             />
           </motion.div>

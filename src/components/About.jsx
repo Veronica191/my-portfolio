@@ -31,7 +31,7 @@ export default function About() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.25),_transparent_35%)]" />
             <img
               src={profileImage}
-              alt="Veronica Katugu profile"
+              alt="Veronica Akwojinga profile"
               className="relative rounded-[1.5rem] object-cover"
             />
           </motion.div>
