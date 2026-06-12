@@ -15,8 +15,8 @@ export default function Footer() {
     <footer className="border-t border-slate-200 bg-slate-950 py-12 text-slate-200">
       <div className="mx-auto flex max-w-7xl flex-col gap-10 px-4 sm:px-6 lg:px-8 lg:flex-row lg:items-center lg:justify-between">
         <div>
-          <p className="text-lg font-semibold text-white">Veronica Katugu</p>
-          <p className="mt-2 text-sm text-slate-400">© {new Date().getFullYear()} Veronica Katugu. All rights reserved.</p>
+          <p className="text-lg font-semibold text-white">Veronica Akwojinga</p>
+          <p className="mt-2 text-sm text-slate-400">© {new Date().getFullYear()} Veronica Akwojinga. All rights reserved.</p>
         </div>
         <div className="flex flex-wrap items-center gap-4">
           {quickLinks.map((link) => (
