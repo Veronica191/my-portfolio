@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
 const resumeUrl = new URL('../assets/images/Veronica_Resume.pdf', import.meta.url).href
-const profileImage = new URL('../assets/images/profile.jpeg', import.meta.url).href
+const profileImage = new URL('../assets/images/veroImage.jpeg', import.meta.url).href
 
 export default function Hero() {
   return (
