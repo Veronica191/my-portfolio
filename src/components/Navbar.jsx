@@ -37,7 +37,7 @@ export default function Navbar() {
           </div>
           <div>
             <p className="text-xs uppercase tracking-[0.3em] text-slate-500">Veronica</p>
-            <p className="text-sm text-slate-900">Frontend Developer</p>
+            <p className="text-sm text-slate-900">Frontend Developer and Data Scientist</p>
           </div>
         </div>
 
@@ -99,7 +99,7 @@ export default function Navbar() {
             ))}
             <a
               href={resumeUrl}
-              download="Veronica-Katugu-Resume.pdf"
+              download="Veronica-Akwojinga-Resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-slate-50 px-4 py-3 text-base font-medium text-slate-700 transition hover:border-sky-200 hover:bg-sky-50 hover:text-slate-900"

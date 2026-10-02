@@ -19,6 +19,12 @@ const certifications = [
     date: '2025',
     image: new URL('../assets/images/Veronica_cert.png', import.meta.url).href,
   },
+  {
+    title: ' Data Analytics',
+    issuer: 'ALX Africa',
+    date: '2026',
+    image: new URL('../assets/images/Data Analytics.png', import.meta.url).href,
+  }
 ]
 
 export default function Certifications() {

@@ -6,8 +6,18 @@ import {
   SiGithub,
   SiVercel,
   SiPostgresql,
+  SiPython,
+  SiPandas,
+  SiNumpy,
 } from 'react-icons/si'
-import { FaCss3Alt, FaCode, FaNodeJs, FaCloud, FaDatabase } from 'react-icons/fa'
+
+import {
+  FaCss3Alt,
+  FaCode,
+  FaCloud,
+  FaDatabase,
+  FaChartBar,
+} from 'react-icons/fa'
 
 export const skills = [
   {
@@ -19,6 +29,7 @@ export const skills = [
       { name: 'React', icon: SiReact },
     ],
   },
+
   {
     category: 'Tools',
     items: [
@@ -28,12 +39,16 @@ export const skills = [
       { name: 'Vercel', icon: SiVercel },
     ],
   },
+
   {
     category: 'Currently Learning',
     items: [
-      { name: 'APIs', icon: FaCloud },
-      { name: 'Node.js', icon: FaNodeJs },
-      { name: 'Databases', icon: FaDatabase },
+      { name: 'Python', icon: SiPython },
+      { name: 'Pandas', icon: SiPandas },
+      { name: 'NumPy', icon: SiNumpy },
+      { name: 'SQL', icon: SiPostgresql },
+      { name: 'Data Cleaning & EDA', icon: FaDatabase },
+      { name: 'Data Visualization', icon: FaChartBar },
     ],
   },
 ]

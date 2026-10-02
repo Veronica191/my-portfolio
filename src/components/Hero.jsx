@@ -23,10 +23,11 @@ export default function Hero() {
               Hi, I'm Veronica Akwojinga
             </h1>
             <p className="mt-4 text-lg leading-8 text-slate-600">
-              Computer Science Student | Frontend Developer and Data Analyst student at ALX.
+              Computer Science Student | Frontend Developer and Data Science student at ALX.
             </p>
             <p className="mt-6 max-w-xl text-base leading-8 text-slate-600 sm:text-lg">
-              Passionate about building responsive web applications and continuously learning modern web technologies.
+              Passionate about building responsive web applications, exploring data science, and continuously learning modern technologies to solve real-world problems.
+
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">

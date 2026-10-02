@@ -4,8 +4,8 @@ const profileImage = new URL('../assets/images/WhatsApp Image 2026-06-06 at 14.4
 
 const infoCards = [
   { title: 'Degree Program', value: 'Bachelor of Science in Computer Science' },
-  { title: 'Current Focus', value: 'Frontend Development & UI Design' },
-  { title: 'Learning Goal', value: 'Build polished web applications with React' },
+  { title: 'Current Focus', value: 'Data Science & Data Analysis' },
+  { title: 'Learning Goal', value: 'Build a strong foundation in data science and machine learning' },
   { title: 'Location', value: 'Ghana, Accra' },
 ]
 
@@ -16,7 +16,7 @@ export default function About() {
         <div className="mb-12 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-sky-600">About</p>
           <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
-            A focused learner building web experiences
+            A focused learner in Data Science and web development
           </h2>
         </div>
 
@@ -43,9 +43,9 @@ export default function About() {
             transition={{ duration: 0.7, ease: 'easeOut' }}
           >
             <p className="text-base leading-8 text-slate-600 sm:text-lg">
-              I am a Computer Science student and frontend developer passionate about crafting responsive,
-              accessible, and elegant user interfaces. My learning journey includes frontend development training
-              through ALX, and I enjoy exploring modern React workflows, animations, and performance-focused UI.
+              I am a Computer Science student and aspiring Data Scientist passionate about using data to understand real-world problems and support better decision-making.
+              I am currently developing my skills in data analysis, Python, SQL, data cleaning, exploratory data analysis, and data visualization.
+              I enjoy working with datasets, finding meaningful patterns, and presenting insights in a clear and understandable way.
             </p>
             <div className="mt-10 grid gap-4 sm:grid-cols-2">
               {infoCards.map((card) => (

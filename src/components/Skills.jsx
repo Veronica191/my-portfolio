@@ -5,11 +5,20 @@ export default function Skills() {
   return (
     <section id="skills" className="py-24 sm:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
         <div className="mb-12 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.35em] text-sky-600">Skills</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.35em] text-sky-600">
+            Skills
+          </p>
+
           <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
-            Modern front-end skills and tools
+            My skills and tools
           </h2>
+
+          <p className="mx-auto mt-4 max-w-2xl text-slate-600">
+            Technologies and tools I have worked with, along with the data
+            science skills I am currently developing.
+          </p>
         </div>
 
         <div className="grid gap-6 md:grid-cols-3">
@@ -23,11 +32,15 @@ export default function Skills() {
               className="space-y-6 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm"
             >
               <div>
-                <p className="text-sm font-semibold uppercase tracking-[0.35em] text-slate-500">{group.category}</p>
+                <p className="text-sm font-semibold uppercase tracking-[0.35em] text-slate-500">
+                  {group.category}
+                </p>
               </div>
+
               <div className="grid gap-4">
                 {group.items.map((skill) => {
                   const Icon = skill.icon
+
                   return (
                     <div
                       key={skill.name}
@@ -36,7 +49,10 @@ export default function Skills() {
                       <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-sky-50 text-sky-600">
                         <Icon className="h-6 w-6" />
                       </div>
-                      <p className="text-base font-medium text-slate-900">{skill.name}</p>
+
+                      <p className="text-base font-medium text-slate-900">
+                        {skill.name}
+                      </p>
                     </div>
                   )
                 })}
@@ -44,6 +60,7 @@ export default function Skills() {
             </motion.div>
           ))}
         </div>
+
       </div>
     </section>
   )

@@ -57,7 +57,7 @@ export default function Contact() {
           <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
             <p className="text-lg font-semibold text-slate-950">Contact information</p>
             <p className="mt-4 text-slate-600">
-              Reach out for collaborations or internship opportunities related to frontend development and software engineering.
+              Reach out for collaborations or internship opportunities related to Data Science and Machine Learning.
             </p>
             <div className="mt-8 space-y-4 text-sm text-slate-600">
               <div className="space-y-1 rounded-3xl bg-slate-50 p-4">
